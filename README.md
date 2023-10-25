@@ -1,5 +1,12 @@
 # form.css
 form.css
+
+```html
+<form class="form-css">
+...
+</form>
+```
+
 ```css
 @import url(https://pinkromeo18.github.io/form.css/form.css);
 body{
