@@ -1,6 +1,11 @@
 # form.css
 form.css
-
+```css
+@import url(https://pinkromeo18.github.io/form.css/form.css);
+body{
+  margin:2rem;
+}
+```
 ```html
 <form class="form-css">
   <img src="https://pinkromeo18.github.io/bozu/kids.jpg">
