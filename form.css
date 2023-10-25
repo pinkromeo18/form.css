@@ -1,0 +1,64 @@
+.form-css{
+  background: #F2F0E9;
+  color: #333;
+  box-shadow: 0.25rem 0.25rem 0.25rem #aaa;
+}
+
+.form-css{
+  max-width:600px;
+  display:flex;
+  flex-direction:column;
+  padding:2rem;
+}
+
+.form-css *{
+  border-color:#333;
+  border-radius:0.25rem;
+  border-width:2px;
+  box-sizing:border-box;
+  font-family:inherit;
+  margin:0;
+  padding:0;
+}
+
+.debug{
+  background:orange;
+}
+.form-css>img{
+  max-height:30vh;
+  object-fit:cover;
+  object-position:top;  
+}
+.form-css>*{
+  margin-bottom:0.5rem;
+}
+.form-css>h1{
+  margin:unset;
+}
+.form-css>*:last-child{
+  margin-bottom:unset;
+}
+
+.form-css textarea,
+.form-css input,
+.form-css button{
+  font-size:inherit;
+  min-width:100%;
+  padding:0.25rem;
+  background:inherit;
+  transition:all 0.2s ease;
+}
+.form-css textarea:focus,
+.form-css input:focus{
+  background:white;
+}
+.form-css button:active{
+  background:inherit;
+  box-shadow:unset!important;
+}
+.form-css button:hover{
+  background: white;
+  cursor:pointer;
+  letter-spacing:0.25rem;
+  box-shadow: 0.25rem 0.25rem 0.25rem #aaa;
+}
